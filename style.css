@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #002339;
+    color: #fff;
+}
+
+.container {
+    margin: 150px 50px;
+    max-width: 700px;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 3px;
+}
+
+.heading span {
+    padding-bottom: 15px;
+    border-bottom: 4px solid #019f55;
+    color: #019f55;
+}
+
+.passwordInput {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 20px;
+    border-radius: 5px;
+}
+
+.passwordInput input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.passwordInput .copyBtn {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.lengthInput {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.lengthInput input[type="range"] {
+    cursor: pointer;
+}
+
+.container button {
+    padding: 16px 22px;
+    border-radius: 5px;
+    border: none;
+    background: #019f55;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
